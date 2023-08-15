@@ -1,0 +1,4 @@
+/* HEADER & FOOTER REMOVAL */
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+header {visibility: visible;}
