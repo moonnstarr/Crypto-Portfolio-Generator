@@ -62,7 +62,7 @@ def get_top_20_cryptos_details(exchange_name, investment_amount, days=30, limit=
                         top_20_cryptos_details.append((symbol, price_change, current_price, trading_volume,
                                                        open_24h, high_24h, low_24h, close_24h))
                 except (ccxt.BaseError, Exception) as e:
-                    print(f"Error fetching data for {symbol}: {e}")
+                    # print(f"Error fetching data for {symbol}: {e}")
                     None
 
                 # Update progress bar in Streamlit
@@ -81,6 +81,7 @@ def get_top_20_cryptos_details(exchange_name, investment_amount, days=30, limit=
         columns = ['Symbol', 'Price Change (%)', 'Current Price', 'Trading Volume',
                    'Open 24h', 'High 24h', 'Low 24h', 'Close 24h']
         df = pd.DataFrame(top_20_cryptos_details, columns=columns)
+        st.write(df)
 
         return df
     except (ccxt.BaseError, Exception) as e:
