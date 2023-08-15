@@ -6,7 +6,7 @@ The Crypto Portfolio Generator is a Python application that allows you to genera
 
 Check out the live demo of the Crypto Portfolio Generator:
 
-- **Demo Link:** [Crypto Portfolio Generator Demo](https://your-demo-link.com)
+- **Demo Link:** [Crypto Portfolio Generator Demo](https://crypto-portfolio-generator-anp8adccjkaac3zqtz2qyy.streamlit.app/)
 
 Please note that the demo version may have limitations or differences compared to the locally hosted version. Feel free to explore and test the application's features using the demo link.
 

@@ -118,10 +118,12 @@ def export_to_excel(df, filename="crypto_portfolio.xlsx"):
 
 if st.button("Generate Portfolio"):
     df = get_top_20_cryptos_details(investment_amount=investment, exchange_name=exchange)
-    df = add_investment_portfolio(df)
+    # df = add_investment_portfolio(df)
     print_df_in_streamlit(df)
+    
     # if st.button("Export to Excel"):
     #     export_to_excel(df=df)
+
 else:
     df = get_top_20_cryptos_details(investment_amount=investment, exchange_name=exchange)
     print_df_in_streamlit(df)
