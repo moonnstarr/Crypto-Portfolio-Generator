@@ -81,7 +81,6 @@ def get_top_20_cryptos_details(exchange_name, investment_amount, days=30, limit=
         columns = ['Symbol', 'Price Change (%)', 'Current Price', 'Trading Volume',
                    'Open 24h', 'High 24h', 'Low 24h', 'Close 24h']
         df = pd.DataFrame(top_20_cryptos_details, columns=columns)
-        st.write(df)
 
         return df
     except (ccxt.BaseError, Exception) as e:

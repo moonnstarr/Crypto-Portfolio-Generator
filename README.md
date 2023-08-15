@@ -10,6 +10,10 @@ Check out the live demo of the Crypto Portfolio Generator:
 
 Please note that the demo version may have limitations or differences compared to the locally hosted version. Feel free to explore and test the application's features using the demo link.
 
+## Screenshot
+
+![Alt text](image.png)
+
 ## Features
 
 - Retrieve top 20 performing cryptocurrencies from selected exchanges.
